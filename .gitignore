@@ -1,4 +1,5 @@
-Gout/
+out/
 .idea/
 CF8.iml
-**/*.txt
+**/*.txtout/
+*.class
