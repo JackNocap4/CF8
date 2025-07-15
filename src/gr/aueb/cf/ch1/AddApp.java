@@ -10,7 +10,7 @@ public class AddApp {
 
         // δήλωση και αρχικοποίηση τωνμ μεταβλητών
        int num3 = 5;
-       int num4 = 5555;
+       int num4 = 12;
        int result = 0;
 
 
