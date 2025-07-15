@@ -10,7 +10,7 @@ public class AddApp {
 
         // δήλωση και αρχικοποίηση τωνμ μεταβλητών
        int num3 = 5;
-       int num4 = 15;
+       int num4 = 5555;
        int result = 0;
 
 
@@ -19,7 +19,7 @@ public class AddApp {
 
        //Εκτύπωση
        System.out.println("το αποτέλεσμα είναι: " + result);
-        System.out.println("To αποτέλεσμα των " + num3 +" και " + num4 + " είναι ίσο με" + result);
+        System.out.println("To αποτέλεσμα των " + num3 +" και " + num4 + " είναι ίσο με " + result);
         System.out.printf("Tο αποτέλεσμα %d και %d είναι ίσο με: %d",num3,num4,result);
     }
 }
