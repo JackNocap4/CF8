@@ -31,7 +31,7 @@ public class AccountDAOImpl implements IAccountDAO {
     public Optional<Account> getByIban(String iban) {
         return accounts.stream()
                 .filter(a ->a.getIban().equals(iban))  // επιστρέφει φιλτραρισμένο stream.
-                .findFirst();  // επιστρέφει optional.
+                .findFirst();                                 // επιστρέφει optional.
 
     }
 
