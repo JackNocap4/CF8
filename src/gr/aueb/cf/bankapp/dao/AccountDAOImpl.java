@@ -14,11 +14,10 @@ public class AccountDAOImpl implements IAccountDAO {
         int index = accounts.indexOf(account);
 
         if (index != -1) {
-            accounts.add(account);  // αν υπάρχει το κάνω update με set.
+            accounts.set(index, account);
             return;
         }
-        accounts.set(index,account); // αν δεν υπάρχει insert με add.
-
+        accounts.add(account);
     }
 
     @Override
