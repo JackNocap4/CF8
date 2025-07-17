@@ -43,7 +43,7 @@ public class Account {
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof Account account)) return false;
-        return Objects.equals(getIban(), account.getIban());
+        return Objects.equals(getIban(), account.getIban());  // θεωρώ ότι 2 λογαριασμοί είναι ίσοι όταν το iban είναι ίδιο.
     }
 
     @Override

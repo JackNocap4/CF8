@@ -14,7 +14,7 @@ public class AccountDAOImpl implements IAccountDAO {
         int index = accounts.indexOf(account);
 
         if (index != -1) {
-            accounts.add(account);  // αν υπάρχει το κλανω update με set.
+            accounts.add(account);  // αν υπάρχει το κάνω update με set.
             return;
         }
         accounts.set(index,account); // αν δεν υπάρχει insert με add.
@@ -30,7 +30,7 @@ public class AccountDAOImpl implements IAccountDAO {
     @Override
     public Optional<Account> getByIban(String iban) {
         return accounts.stream()
-                .filter(a ->a.getIban().equals(iban))  // επιστρέφει φιλτραισμένο stream.
+                .filter(a ->a.getIban().equals(iban))  // επιστρέφει φιλτραρισμένο stream.
                 .findFirst();  // επιστρέφει optional.
 
     }
