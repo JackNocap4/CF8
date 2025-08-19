@@ -80,7 +80,7 @@ public class Account {
      */
     public void deposit(double amount) throws Exception {
         try {
-            if ( amount < 0) {
+            if (amount < 0) {
                 throw new Exception("Negative amount is not valid.");
             }
             balance += amount;
