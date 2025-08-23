@@ -26,7 +26,7 @@ public class LifoParking {
 
     public void addCar(String cardId) {             // cardId είναι πινακίδα αμαξιού.
         parking.push(cardId);
-        System.out.println(LocalDateTime.now() + ", Αρ. Πινακ'ιδας: " + cardId);
+        System.out.println(LocalDateTime.now() + ", Αρ. Πινακίδας: " + cardId);
     }
 
     public String removeCar() {
