@@ -11,6 +11,7 @@ public class Main {
 
         doSpeak(alice);
         doSpeak(bob);
+
     }
 
     public static void doSpeak(Ispeakable iSpeakable) {
