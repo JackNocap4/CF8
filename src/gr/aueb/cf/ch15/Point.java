@@ -22,7 +22,7 @@ public class Point {
         x += 1;
     }
 
-    protected void movePlusten() {  /// επειδή θέλω να κληρονομηθεί δεν την κάνω private. Protected σημαίνει ότι μόνο η derived κλάση την κληρονομεί.
+    protected void movePlusTen() {  /// επειδή θέλω να κληρονομηθεί δεν την κάνω private. Protected σημαίνει ότι μόνο η derived κλάση την κληρονομεί.
         x +=10;
     } // επιπλέον λειτουργικότητα αλλά όχι και public = protected
 

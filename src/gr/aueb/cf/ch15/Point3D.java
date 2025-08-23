@@ -32,8 +32,8 @@ package gr.aueb.cf.ch15;
         }
 
         @Override
-        protected void movePlusten() {
-            super.movePlusten();
+        protected void movePlusTen() {
+            super.movePlusTen();
             z += 10;
         }
 

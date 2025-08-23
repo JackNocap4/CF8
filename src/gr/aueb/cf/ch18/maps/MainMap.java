@@ -26,7 +26,7 @@ public class MainMap {
         // Remove
         countries.remove("Gr");
 
-
+        // Iterate
         for (Map.Entry<String, String> entry: countries.entrySet()) {
             System.out.println("Key: " + entry.getKey() + " value: " + value);
         }
