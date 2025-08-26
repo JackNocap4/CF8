@@ -16,5 +16,12 @@ public class MatchMain {
 
         boolean noneIsDenis = names.stream()
                 .noneMatch(name -> name.equals("Denis"));       // αν δεν υπάρχει κανένας Denis είναι true.
+
+        System.out.println("Υπάρχει Denis? " + isDenisExists);
+        System.out.println("Είναι όλοι Denis? " + allAreDenis);
+        System.out.println("Δεν υπάρχει κανένας Denis? " + noneIsDenis);
     }
+
+
+
 }
